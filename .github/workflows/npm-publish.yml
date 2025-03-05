@@ -9,9 +9,6 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        #working-directory: typescript
     steps:
       - uses: actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08
       - uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8
